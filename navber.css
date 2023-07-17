@@ -74,30 +74,30 @@ a{
         padding: 8px 24px;
     }
     
-    .navbar__menu {
+    .navbar_menu {
         display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .navbar__menu li {
+    .navbar_menu li {
         width: 100%;
         text-align: center;
     }
 
-    .navbar__icons {
+    .navbar_icons {
         display: none;
         justify-content: center;
         width: 100%;
     }
 
-    .navbar__toogleBtn {
+    .navbar_toogleBtn {
         display: block;
     }
 
-    .navbar__menu.active,
-    .navbar__icons.active {
+    .navbar_menu.active,
+    .navbar_icons.active {
         display: flex;
     }
 }
