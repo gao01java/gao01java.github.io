@@ -1,8 +1,8 @@
-const toggleBtn=document.querySelector('.navber_toogleBtn');
-const menu=document.querySelector('.navbar_menu');
-const icons=document.querySelector('.navbar_icons');
+const toggleBtn = document.querySelector('.navbar__toogleBtn');
+const menu = document.querySelector('.navbar__menu');
+const icons = document.querySelector('.navbar__icons');
 
-toggleBtn.addEventListener('click',()=>{
-    menu.classList.toggle('active');
-    icons.classList.toggle('active');
+toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('active')
+    icons.classList.toggle('active')
 });
