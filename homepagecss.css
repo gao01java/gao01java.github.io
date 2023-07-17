@@ -1,3 +1,38 @@
 #header1{
-    color:blue;
+    color:red;
+    text-align: center;
 }
+#header{
+    background-color:aquamarine;
+    text-align: center;
+}
+#menu{
+    background-color:chartreuse;
+    float:left;
+
+}
+#content{
+    float:left;
+}
+#footer{
+   /** background-color:black; */
+    clear:both;
+    height:200px;
+    text-align:center;
+}
+hr{
+    width: 1075px;
+}
+p1{
+    color: #33BEFF;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#33BEFF;
+    margin: 10px;
+}
+a:hover {
+    text-decoration:underline;
+    color: black;
+}   
