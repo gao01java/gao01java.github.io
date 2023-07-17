@@ -1,7 +1,9 @@
-#header1{
-    color:red;
-    text-align: center;
-}
+
+
+
+
+
+/**
 #header{
     background-color:aquamarine;
     text-align: center;
@@ -15,14 +17,31 @@
     float:left;
 }
 #footer{
-   /** background-color:black; */
+   /** background-color:black; 
     clear:both;
     height:200px;
     text-align:center;
-}
-hr{
-    width: 1075px;
-}
+} 
+*/
+
+/*
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header 
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
 p1{
     color: #33BEFF;
 }
@@ -36,3 +55,42 @@ a:hover {
     text-decoration:underline;
     color: black;
 }   
+
+footer{
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu 
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content 
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  */
