@@ -1,0 +1,20 @@
+
+img{
+    position: absolute;
+    left: 12.5%;
+    top:25%;
+}
+#sectionhr1{
+    top:20px;
+    text-align: center;
+    width: 75%;
+}
+p1{
+    font-size: 17.5px;
+    position: absolute;
+    left: 25%;
+    top:25%;
+    font-family: 'Tektur', cursive;
+   /* font-style: italic;*/
+    /*font-family: 'Source Code Pro', monospace;*/
+}
