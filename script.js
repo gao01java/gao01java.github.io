@@ -8,12 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // 간단한 포스트 데이터 (나중에 직접 수정 가능)
     const posts = [
         {
-            title: "미적분 보충 수업 준비 로그",
+            title: "아직 작성된 글 없습니다.",
             date: "2025-11-26",
-            category: "공부 기록",
-            summary: "1년 안에 컴공 수학 따라가기 위해 세운 계획과 첫 주 진행 상황 정리.",
-            tags: ["미적분", "선행학습", "컴공수학"]
+            category: "null",
+            summary: "null",
+            tags: ["null"]
         },
+        /*
         {
             title: "C++ 부동소수점 출력이 이상한 이유",
             date: "2025-11-25",
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             summary: "PHQ-9, 조울증 자가검사 등 간단한 심리검사 페이지를 직접 구현해본 기록.",
             tags: ["HTML", "CSS", "JavaScript"]
         }
+            */
     ];
 
     const postsContainer = document.getElementById("posts-container");
